@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int minJumps(vector<int>& arr) {
+    int    minJumps(vector<int>& arr) {
         if(arr.size()==1) return 0;
         map<int,vector<int> > m;
         for(int i=0;i<arr.size();i++)
